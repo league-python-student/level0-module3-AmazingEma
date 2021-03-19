@@ -6,6 +6,14 @@ def setup():
 
 
 def draw():
+    for i in range(20):
+        if i % 2 == 0:
+            fill(255,255,0)
+        else:
+            fill(0,0,0)
+        ellipse(i*20, i*20,50,50)
+    draw_bee_face(400,400)
+    
     
     # First run the program and you should see a flower.  
   
